@@ -1,27 +1,26 @@
 # Gmail API integration with Python
 
 ## Purpose
-This Python script is designed to interact with the Gmail API to perform activities on Gmail Account
-The main function demonstrate delete all messages from the specified Gmail account's Inbox. 
-You can change the main function for any action supported by Gmail API
-It uses Google's Gmail API and requires user authentication.
-https://developers.google.com/gmail/api/reference/rest?hl=en
+This Python script is designed to interact with the Gmail API to perform activities on Gmail Account. <br />
+The main function demonstrate delete all messages from the specified Gmail account's Inbox. <br />
+You can change the main function for any action supported by Gmail API. <br />
+It uses Google's Gmail API and requires user authentication. <br />
+https://developers.google.com/gmail/api/reference/rest?hl=en <br />
 
 ## Configuration
-Obtain Google API Credentials:
-
-Go to the Google Developers Console.
+Obtain Google API Credentials: <br />
+1. Go to the Google Developers Console.
 Create a new project or select an existing project.
-Enable the Gmail API for your project.
+2. Enable the Gmail API for your project.
 Create credentials and download the client configuration file (JSON format).
-Rename the downloaded file to your-account-credentials.json.
-Place the credentials file in the same directory as the script.
+3. Rename the downloaded file to your-account-credentials.json.
+4. Place the credentials file in the same directory as the script.
 
-Set Up Token File:
-During the first run, the GmailAPI-RefreshToken uses browser authentication to retive Refresh Token which will be use later on for future use (valid for 200 days)
-The script will generate a token file (token-your-account.json) to store authentication information.
-Ensure the script has write permissions in the working directory.
-
+Set Up Token File: <br />
+During the first run, the GmailAPI-RefreshToken uses browser authentication to retive Refresh Token which will be use later on for future use (valid for 200 days). <br />
+The script will generate a token file (token-your-account.json) to store authentication information. <br />
+Ensure the script has write permissions in the working directory. <br />
+<br />
 ## Prerequisites
 Before running the script, ensure you have the following prerequisites installed:
 
